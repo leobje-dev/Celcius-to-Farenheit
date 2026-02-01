@@ -31,3 +31,11 @@ resultBtn.addEventListener("click", convert);
     temp = (temp * 9) / 5 + 32;
     result.textContent = temp.toFixed(1) + "°F";
 }
+
+// the Button
+
+const theBtn = document.getElementById("theBtn");
+
+theBtn.addEventListener("click", function(){
+  document.body.classList.toggle("night");
+});
